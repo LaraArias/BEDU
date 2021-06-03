@@ -2,21 +2,102 @@ nav {
     background-color:mediumpurple;
     font-size:30px;
     font-family: sans-serif;
-    width:100;
+    width:100%;
     height:70px;
 }
-#title1{
+
+nav>a{
+    color: #00DDFF;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: xx-large;
+
+}
+.title1{
     font-size: xx-large;
     font-weight: bold;
     font-family: sans-serif ;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
 }
+.p1{
+    font-size: medium;
+    font-weight: normal;
+    font-family: sans-serif ;
+    text-align: justify;
+    color: white;
 
-#example-relative{
-    width: 100%;
-    height: 50%;
-    background-color: cornflowerblue;
 }
 
 #body{
-    background-color:cornflowerblue;
+    height: 100%;
+    background-color:#556;
+    background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+    linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+    linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+    linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+    linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a),
+    linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
+    background-size:80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+    font-family: Arial;
+}
+
+#hero-content{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+
+#navbar {
+    display: block ;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+
+.actions {
+    width: 15%;
+}
+.hero-image{
+    background-image: url("../images/bg-1.jpg");
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    text-align: center;
+    vertical-align: center;
+    position: absolute;
+    height: 40%;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Arial";
+}
+
+#logo{
+    size: auto;
+    height: auto;
+    width: 100px;
+
 }
