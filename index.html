@@ -2,60 +2,155 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>Página 1- Módulo html</title>
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
 
 
 <!--Comentarios en html para documentación-->
 
-<body id="body">
-
+<body class="body">
 <div class="hero-content">
 
-              <!-- Init menú de navegación -->
+    <!-- Init menú de navegación -->
 
-    <nav id="navbar">
-
-        <a href=""> <img id="logo" src="assets/images/Logoreact.png"/> </a>
-        <a href="pages/nosotros.html"> Nosotros </a>
+    <nav id="navhero">
+        <a href="index.html"> <img id="logo" src="assets/images/Logoreact.png"/> </a>
+        <a href="pages/nosotros.html">Nosotros </a>
         <a href="pages/contacto.html"> Contacto </a>
-    </nav
-              <!-- Fin menú de navegación -->
+        <a href="pages/Servicios.html">Servicios</a>
+    </nav>
+    <!-- Fin menú de navegación -->
 
+    <!-- Inicio Hero-image -->
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>Bienvenidos</h1>
+            <p>Somos una empresa dedicada a las energías sustentables.</p>
+            <button class="call-to-action"> Saber más</button>
+        </div>
+    </div>
+    <!-- Fin Hero-image -->
 
+    <!-- Inicio Servicios -->
+    <h1 class="title1"> Especializados en:</h1>
+    <div class="Servicios" title="Nuestros servicios">
+        <div class="Servicio">
+            ·Energía Eólica
+            <img class="service-img" src="assets/images/eolic.jpg">
+        </div>
+        <div class="Servicio">
+            ·Energía Solar
+            <img class="service-img" src="assets/images/solar-panel.jpg">
+        </div>
+        <div class="Servicio">
+            ·Energía Nuclear
+            <img class="service-img" src="assets/images/nuclear.jpg">
+        </div>
+        <div class="Servicio">
+            ·Energía Hidráulica
+            <img class="service-img" src="assets/images/hydraulic.jpg">
+        </div>
+        <div class="Servicio">
+            ·Energía Geotérmica
+            <img class="service-img" src="assets/images/Geothermal.jpg">
+        </div>
+    </div>
+    <!-- Fin Servicios -->
 
-        <div class="hero-image">
-            <div class="hero-text">
-                <h1>Bienvenidos</h1>
-                <p>Somos una empresa fiticia.</p>
-                <button> Saber más</button>
+    <!-- Inicio contenedor -->
+    <div class="container">
+        <div class="about-us">
+            <div class="About-us-cont">
+                <h1 class="title1"> Nosotros</h1>
+                <p1 class="p1"> Somos una empresa con 30 años de experiencia, estamos enfocados en el desarrollo de
+                    tecnología para el apoyo al medio ambiente y la adaptación al cambio climático.
+                </p1>
             </div>
         </div>
-
-
-    <!-- Contenedor de acciones de usuario -->
-    <div class="actions"> </div>
+        <img class="Banner" src="assets/images/green.jpg">
     </div>
+    <!-- Fin contenedor -->
 
-</div>
+    <!-- Inicio Cards  -->
+    <div class="ImageGrid">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="assets/images/natura1.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="assets/images/natura2.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="assets/images/natura3.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="assets/images/natura4.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="assets/images/natura5.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="assets/images/Natura6.jpg"alt="Card image cap">
+            <p class="card-text">Some q"Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <!-- Fin Cards -->
 
-<div class="title1"> Nuestros servicios </div>
-<ul class="p1">
-    <li>1.-</li>
-    <br>
-    <li>2.-</li>
-    <br>
-    <li>3.-</li>
-    <br>
-    <li>4.-</li>
-    <br>
-    <li>5.-</li>
-</ul>
-
+    <!-- Inicio footer -->
+    <footer class="footer">
+        <div>Llámanos y descubre tu potencial.</div>
+        <div>55-78-45-79-77</div>
+        <div>contacto@empresa.com</div>
+    </footer>
+    <!-- Fin footer -->
 </body>
 </html>
 

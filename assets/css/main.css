@@ -1,17 +1,17 @@
 nav {
-    background-color:mediumpurple;
+    background-color:#444455;
     font-size:30px;
     font-family: sans-serif;
     width:100%;
     height:70px;
+    position: absolute;
 }
 
 nav>a{
     color: #00DDFF;
-    font-family: Arial;
+    font-family: Arial,sans-serif;
     font-weight: bold;
     font-size: xx-large;
-
 }
 .title1{
     font-size: xx-large;
@@ -27,10 +27,9 @@ nav>a{
     font-family: sans-serif ;
     text-align: justify;
     color: white;
-
 }
 
-#body{
+.body{
     height: 100%;
     background-color:#556;
     background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
@@ -41,7 +40,7 @@ nav>a{
     linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
     background-size:80px 140px;
     background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
-    font-family: Arial;
+    font-family: Arial,sans-serif;
 }
 
 #hero-content{
@@ -55,23 +54,24 @@ nav>a{
     padding: 0 20px 0 20px;
 }
 
-#navbar {
-    display: block ;
+#navhero {
+    display: flex;
+    position: relative;
+    background-color: #444455;
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: 20px;
     width: 90%;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px 0 20px;
+    filter: brightness(100%);
 }
-
 .actions {
     width: 15%;
 }
 .hero-image{
-    background-image: url("../images/bg-1.jpg");
+    background-image: url("../images/nature.jpg");
     height: 500px;
     width: 100%;
     margin-top: 20px;
@@ -92,12 +92,140 @@ nav>a{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-family: "Arial";
+    font-family: Arial,sans-serif;
 }
 
-#logo{
+#logo {
     size: auto;
     height: auto;
     width: 100px;
+}
+.Servicios{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: sans-serif ;
+    justify-items: center;
+    align-content: center;
+    margin-top: 10px;
+    color: white;
+    backdrop-filter: brightness(70%);
+}
+.Servicio{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: sans-serif ;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-content: center;
+    margin-left: 62.5px;
+}
+.service-img{
+    height: 160px;
+    width: 250px;
+}
+.footer{
+    display: flex;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: sans-serif ;
+    color: white;
+    justify-content: space-around;
+    margin-top: 35px;
+    backdrop-filter: brightness(80%);
+    box-shadow: 40px 30px 10px black;
+}
+.Banner{
+    display: flex;
+    height: 50%;
+    width: 50%;
+    margin-top: 20px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Banner2 {
+    display: flex;
+    margin-top: 20px;
+    height: 300px;
+    width: 30%;
+    flex-wrap: wrap;
+    margin-right: 50px;
+}
+.Banner3 {
+    display: flex;
+    margin-top: 20px;
+    height: 450px;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
 
 }
+.about-us{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.about-us-content{
+    display: flex;
+    height:300px;
+    width: 360px;
+    flex-direction: column;
+    position: relative;
+    align-content: center;
+    margin-left: 3%;
+}
+.box-shadow{
+    flex: content-box;
+    height:310px;
+    width: 25%;
+    background-color: #444455;
+    margin-top: 30px;
+    position: relative;
+}
+.call-to-action{
+    background-color: #444455;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 40px 30px 10px black;
+}
+.container{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.AboutUs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.About-us-cont{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: content-box;
+    width: 45%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-bottom: 200px;
+    line-height: 40px;
+}
+ImageGrid{
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
+    justify-items: stretch;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
