@@ -136,6 +136,7 @@ nav>a{
     margin-top: 35px;
     backdrop-filter: brightness(80%);
     box-shadow: 40px 30px 10px black;
+    position: relative;
 }
 .Banner{
     display: flex;
@@ -213,19 +214,19 @@ nav>a{
 .About-us-cont{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     height: content-box;
-    width: 45%;
+    width: 65%;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-bottom: 200px;
     line-height: 40px;
+    padding: 17px;
 }
-ImageGrid{
+.Image-grid{
     display: grid;
-    grid-template-columns: 3;
-    grid-template-rows: 2;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
     justify-items: stretch;
-    height: 100%;
-    width: 100%;
     align-items: center;
+    margin-left: 10%;
 }
 
