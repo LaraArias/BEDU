@@ -128,10 +128,10 @@ nav>a{
 }
 .footer{
     display: flex;
-    font-size: xx-large;
+    color: #00DDFF;
+    font-size: x-large;
     font-weight: bold;
     font-family: sans-serif ;
-    color: white;
     justify-content: space-around;
     margin-top: 35px;
     backdrop-filter: brightness(80%);
@@ -221,7 +221,7 @@ nav>a{
     line-height: 40px;
     padding: 17px;
 }
-.Image-grid{
+.card-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2fr 2fr;
