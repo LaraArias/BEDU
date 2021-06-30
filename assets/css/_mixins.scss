@@ -1,0 +1,26 @@
+@import "_variables.scss.css";
+$maincolor:"#00DDFF";
+
+/*Mixins*/
+@mixin container($height,$width, $bg-color, $justify-content){
+  height: $height;
+  width: $width;
+  background-color: $bg-color;
+  justify-content: $justify-content;
+  display: flex;
+}
+
+/*Small*/
+.container-sm-right{
+  @include container(150px, 200px, $maincolor,right);
+}
+
+/*Medium*/
+.container-m-left{
+  @include container(200px, 250px, $maincolor,left);
+}
+
+/*Large*/
+.container-l-center{
+  @include container(250px, 300px, $maincolor,center);
+}
