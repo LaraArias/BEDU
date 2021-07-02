@@ -149,7 +149,7 @@ nav a {
 }
 
 /*Servicios*/
-.Servicios {
+.Services {
   display: grid;
   position: relative;
   grid-template-columns: 20% 20% 20% 20% 20%;
@@ -163,7 +163,7 @@ nav a {
   backdrop-filter: brightness(70%);
 }
 
-.Servicio {
+.Service {
   widows: 250px;
   font-size: x-large;
   font-weight: bold;
@@ -350,6 +350,15 @@ nav a {
   color: #fff;
   background-color: #007bff;
   border-color: #007bff;
+}
+
+.signup-form {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  size: small;
+  color: black;
 }
 
 /*# sourceMappingURL=main.css.map */
