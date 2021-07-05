@@ -1,10 +1,10 @@
 @charset "UTF-8";
 /*Imports*/
-@import "_variables.scss.css";
+/* Definimos variables */
 @import "_variables.scss.css";
 /*Mixins*/
 /*Small*/
-@import "responsive.css";
+@import "_variables.scss.css";
 .container-sm-right {
   height: 150px;
   width: 200px;
@@ -31,18 +31,116 @@
   display: flex;
 }
 
+@media screen and (min-width: 1280px) {
+  .Services {
+    display: grid;
+    position: relative;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: "Arial, Sans Serif";
+    justify-items: center;
+    align-content: center;
+    margin-top: 10px;
+    color: white;
+    backdrop-filter: brightness(70%);
+  }
+}
+@media screen and (min-width: 970px) {
+  .Services {
+    display: grid;
+    position: relative;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Arial, Sans Serif";
+    justify-items: center;
+    align-content: center;
+    margin-top: 10px;
+    color: white;
+    backdrop-filter: brightness(70%);
+  }
+}
+@media screen and (min-width: 767px) {
+  .Services {
+    display: grid;
+    position: relative;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    font-size: medium;
+    font-weight: bold;
+    font-family: "Arial, Sans Serif";
+    justify-items: center;
+    align-content: center;
+    margin-top: 10px;
+    color: white;
+    backdrop-filter: brightness(70%);
+  }
+}
+@media screen and (min-width: 600px) {
+  .Services {
+    display: grid;
+    position: relative;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    font-size: small;
+    font-weight: bold;
+    font-family: "Arial, Sans Serif";
+    justify-items: center;
+    align-content: center;
+    margin-top: 10px;
+    color: white;
+    backdrop-filter: brightness(70%);
+  }
+}
+@media screen and (min-width: 600px) {
+  nav {
+    padding: 0;
+    width: 100%;
+    height: 70px;
+    display: block;
+  }
+
+  .footer {
+    display: flex;
+    color: #00DDFF;
+    font-size: small;
+    font-weight: bold;
+    font-family: "Arial, Sans Serif";
+    justify-content: space-around;
+    margin-top: 35px;
+    backdrop-filter: brightness(80%);
+    box-shadow: 40px 30px 10px black;
+    position: relative;
+  }
+}
+.Services {
+  display: grid;
+  position: relative;
+  grid-template-columns: 18% 18% 18% 18% 18%;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: "Arial, Sans Serif";
+  justify-items: center;
+  align-content: center;
+  margin-top: 10px;
+  color: white;
+  backdrop-filter: brightness(70%);
+}
+
+/*Etiquetas html section, div, flex, grid, sass, codigo identado,
+nomenclatura: nombres de estilos de css, definición del proyecto
+landing y repo con readme*/
 /* Anidación scss*/
 nav {
   background-color: #444455;
   font-size: 30px;
-  font-family: "'Arial, Sans Serif'";
+  font-family: "Arial, Sans Serif";
   width: 100%;
   height: 70px;
   position: absolute;
 }
 nav a {
   color: #00DDFF;
-  font-family: "'Arial, Sans Serif'";
+  font-family: "Arial, Sans Serif";
   font-weight: bold;
   font-size: xx-large;
 }
@@ -52,7 +150,7 @@ nav a {
   color: #00DDFF;
   font-size: x-large;
   font-weight: bold;
-  font-family: "'Arial, Sans Serif'";
+  font-family: "Arial, Sans Serif";
   justify-content: space-around;
   margin-top: 35px;
   backdrop-filter: brightness(80%);
@@ -64,7 +162,7 @@ nav a {
 .title1 {
   font-size: xx-large;
   font-weight: bold;
-  font-family: "'Arial, Sans Serif'";
+  font-family: "Arial, Sans Serif";
   text-align: center;
   margin-top: 10px;
   color: white;
@@ -73,7 +171,7 @@ nav a {
 .p1 {
   font-size: medium;
   font-weight: normal;
-  font-family: "'Arial, Sans Serif'";
+  font-family: "Arial, Sans Serif";
   text-align: justify;
   color: white;
 }
@@ -139,7 +237,7 @@ nav a {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-family: "'Arial, Sans Serif'";
+  font-family: "Arial, Sans Serif";
 }
 
 #logo {
@@ -149,13 +247,13 @@ nav a {
 }
 
 /*Servicios*/
-.Services {
+.Servicios {
   display: grid;
   position: relative;
   grid-template-columns: 20% 20% 20% 20% 20%;
   font-size: xx-large;
   font-weight: bold;
-  font-family: "'Arial, Sans Serif'";
+  font-family: "Arial, Sans Serif";
   justify-items: center;
   align-content: center;
   margin-top: 10px;
@@ -163,11 +261,11 @@ nav a {
   backdrop-filter: brightness(70%);
 }
 
-.Service {
+.Servicio {
   widows: 250px;
   font-size: x-large;
   font-weight: bold;
-  font-family: "'Arial, Sans Serif'";
+  font-family: "Arial, Sans Serif";
   color: white;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -355,8 +453,6 @@ nav a {
 .signup-form {
   display: flex;
   justify-content: center;
-  height: 50px;
-  width: 50px;
   size: small;
   color: black;
 }

@@ -1,10 +1,7 @@
 /*Imports*/
-@import "_variables.scss.css";
+@import "variables";
 @import "mixins";
-@import "responsive.css";
-
-$mainfont:"'Arial, Sans Serif'";
-$maincolor:"#00DDFF";
+@import "responsive";
 
 /* Anidación scss*/
 nav {
