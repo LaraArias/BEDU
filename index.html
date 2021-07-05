@@ -2,60 +2,163 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>Página 1- Módulo html</title>
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+
 </head>
-
-
 <!--Comentarios en html para documentación-->
+<body class="body">
 
-<body id="body">
-
+<!--Script/-->
+<script src="./app.js"></script>
+<!-- Inicio Hero Content -->
 <div class="hero-content">
 
-              <!-- Init menú de navegación -->
-
-    <nav id="navbar">
-
-        <a href=""> <img id="logo" src="assets/images/Logoreact.png"/> </a>
-        <a href="pages/nosotros.html"> Nosotros </a>
+    <!-- Inicio menú de navegación -->
+    <nav id="navhero">
+        <a href="index.html"> <img id="logo" src="assets/images/Logoreact.png"/> </a>
+        <a href="pages/nosotros.html">Nosotros </a>
         <a href="pages/contacto.html"> Contacto </a>
-    </nav
-              <!-- Fin menú de navegación -->
-
-
-
-        <div class="hero-image">
-            <div class="hero-text">
-                <h1>Bienvenidos</h1>
-                <p>Somos una empresa fiticia.</p>
-                <button> Saber más</button>
-            </div>
+        <a href="pages/Servicios.html">Servicios</a>
+        <a href="pages/CaseStudies.html">Nuestro Trabajo</a>
+    </nav>
+    <!-- Fin menú de navegación -->
+    <!-- Inicio Hero-image -->
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>Bienvenidos</h1>
+            <p>Somos una empresa dedicada a las energías sustentables.</p>
+            <button class="call-to-action"> Saber más</button>
         </div>
-
-
-    <!-- Contenedor de acciones de usuario -->
-    <div class="actions"> </div>
     </div>
-
+    <!-- Fin Hero-image -->
 </div>
+<!-- Fin Hero Content -->
+<!-- Inicio Servicios -->
+<h1 class="title1"> Especializados en:</h1>
+<section class="Services" title="Nuestros servicios">
+    <div class="Service">
+        <h5 class="card-title">·Energía Eólica</h5>
+        <img class="service-img" src="assets/images/eolic.jpg">
+    </div>
+    <div class="Service">
+        <h5 class="card-title">·Energía Solar</h5>
+        <img class="service-img" src="assets/images/solar-panel.jpg">
+    </div>
+    <div class="Service">
+        <h5 class="card-title">·Energía Nuclear </h5>
+        <img class="service-img" src="assets/images/nuclear.jpg">
+    </div>
+    <div class="Service">
+        <h5 class="card-title"> ·Energía Hidráulica</h5>
+        <img class="service-img" src="assets/images/hydraulic.jpg">
+    </div>
+    <div class="Service">
+        <h5 class="card-title"> ·Energía Geotérmica </h5>
+        <img class="service-img" src="assets/images/Geothermal.jpg">
+    </div>
+</section>
+<!-- Fin Servicios -->
 
-<div class="title1"> Nuestros servicios </div>
-<ul class="p1">
-    <li>1.-</li>
-    <br>
-    <li>2.-</li>
-    <br>
-    <li>3.-</li>
-    <br>
-    <li>4.-</li>
-    <br>
-    <li>5.-</li>
-</ul>
 
+<!-- Inicio contenedor -->
+<section class="container">
+    <div class="about-us">
+        <div class="About-us-cont">
+            <h1 class="title1"> Nosotros</h1>
+            <p1 class="p1"> Somos Átomo, una empresa con 50 años de experiencia, estamos enfocados en el desarrollo de
+                tecnología para el apoyo al medio ambiente y la adaptación al cambio climático.
+            </p1>
+        </div>
+    </div>
+    <img class="Banner" src="assets/images/green.jpg">
+</section>
+<!-- Fin contenedor -->
+
+
+<!-- Inicio Cards  -->
+<section class="card-grid">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="assets/images/natura1.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Irlanda</h5>
+            <p class="card-text">Hemos generado proyectos con un impacto en distintos ambientes en Irlanda, apoyando la
+                restauración de zonas específicas.</p>
+            <a href="#" class="btn btn-primary" style="background-color: #00DDFF; filter: brightness(85%);">Leer Caso de
+                Estudio</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="assets/images/natura2.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Francia</h5>
+            <p class="card-text">Hemos apoyado zonas rurales del sur de Francia a través de programas sustentables con
+                un enfoque social.</p>
+            <a href="#" class="btn btn-primary" style="background-color: #00DDFF; filter: brightness(85%);">Leer Caso de
+                Estudio</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="assets/images/natura3.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Estados Unidos</h5>
+            <p class="card-text">Nuestros páneles solares han transformado ciudades enteras a través de nuestra red de
+                apoyo nacional.</p>
+            <a href="#" class="btn btn-primary" style="background-color: #00DDFF; filter: brightness(85%);">Leer Caso de
+                Estudio</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="assets/images/natura4.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">México</h5>
+            <p class="card-text">Nuestras presas hacen posible la limpieza de redes hídricas, mejorando las condiciones
+                de vida de millones de personas. </p>
+            <a href="#" class="btn btn-primary" style="background-color: #00DDFF; filter: brightness(85%);">Leer Caso de
+                Estudio</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="assets/images/natura5.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Tailandia y Asia Pacífico</h5>
+            <p class="card-text">Nuestras tecnologías han permitido la creación de ciudades inteligentes que permiten el
+                desarrollo de regiones importantes para el comercio internacional.</p>
+            <a href="#" class="btn btn-primary" style="background-color: #00DDFF; filter: brightness(85%);">Leer Caso de
+                Estudio</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="assets/images/Natura6.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Programa Internacional de Aforestación</h5>
+            <p class="card-text">Nuestros programas de aforestación son reconocidos mundialmente. A través de él,
+                generamos un cambio social con importancia.</p>
+            <a href="#" class="btn btn-primary" style="background-color: #00DDFF; filter: brightness(85%);">Leer Caso de
+                Estudio</a>
+        </div>
+    </div>
+</section>
+<!-- Fin Cards -->
+
+<!-- Inicio footer -->
+<h1 class="title1">Contáctanos y únete a la transformación sustentable</h1>
+<footer class="footer">
+    <p class="p1">55-78-45-79-77</p>
+    <p class="p1">contacto@atomo.com</p>
+    <form class="signup-form">
+        <input type="email" placeholder="tucorreo@ejemplo" />
+        <button type="submit">
+           Suscríbete al Newsletter &rarr;
+        </button>
+
+</footer>
+<!-- Fin footer -->
 </body>
 </html>
 
